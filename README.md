@@ -15,8 +15,10 @@
 These Python scripts provide command-line tools for URL encoding and decoding with the UTF-8 encoding scheme. utf8encode.py encodes strings using URL encoding, while utf8decode.py decodes URL-encoded strings.
 
 ## Usage
-`python3 utf8encode.py 'your_string_here'`
-`python3 utf8decode.py 'encoded_string_here'`
+```
+python3 utf8encode.py 'your_string_here'
+python3 utf8decode.py 'encoded_string_here'
+```
 
 ![image](https://github.com/Mithlonde/utf8coder/assets/88001670/0a963c92-8b34-47cf-919b-8ff9da9404b6)
 
@@ -24,7 +26,9 @@ These Python scripts provide command-line tools for URL encoding and decoding wi
 alias urlencode='python3 /path/to/utf8encode.py'
 alias urldecode='python3 /path/to/utf8decode.py'
 
-`urlencode 'your_string_here'`
-`urldecode 'encoded_string_here'`
+```
+urlencode 'your_string_here'
+urldecode 'encoded_string_here'
+```
 
 ![image](https://github.com/Mithlonde/utf8coder/assets/88001670/500a3f11-e500-4f63-9d6c-e7a0e3266f74)
